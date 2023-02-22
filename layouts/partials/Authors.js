@@ -8,13 +8,13 @@ const Authors = ({ authors }) => {
       {authors.map((author, i) => (
         <div className="col-12 mb-8 sm:col-6 md:col-4" key={`key-${i}`}>
           {author.frontmatter.image && (
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <Image
                 src={author.frontmatter.image}
                 alt={author.frontmatter.title}
-                height="150px"
-                width="150px"
-                className="rounded-lg"
+                height={150}
+                width={150}
+                className="rounded-full h-[150px]"
               />
             </div>
           )}

@@ -1,6 +1,6 @@
 ---
-title: Mark Dinn
-image: /images/authors/mark-dinn.jpg
+title: Ammrito Lal Roy
+image: /images/authors/ammrito.jpg
 description: this is meta description
 social:
   facebook: https://www.facebook.com/
